@@ -1,0 +1,59 @@
+{
+  "total_records": 6,
+  "log_entries": [
+    {
+      "ip": "192.168.1.1",
+      "timestamp": "23/May/2026:09:15:30 +0600",
+      "method": "GET",
+      "path": "/api/users",
+      "status": 200,
+      "bytes": 1245,
+      "user_agent": ""
+    },
+    {
+      "ip": "203.76.120.45",
+      "timestamp": "23/May/2026:09:16:12 +0600",
+      "method": "POST",
+      "path": "/api/login",
+      "status": 201,
+      "bytes": 892,
+      "user_agent": ""
+    },
+    {
+      "ip": "192.168.1.100",
+      "timestamp": "23/May/2026:09:17:45 +0600",
+      "method": "GET",
+      "path": "/dashboard",
+      "status": 200,
+      "bytes": 3421,
+      "user_agent": ""
+    },
+    {
+      "ip": "103.45.67.89",
+      "timestamp": "23/May/2026:09:18:05 +0600",
+      "method": "GET",
+      "path": "/api/products",
+      "status": 404,
+      "bytes": 567,
+      "user_agent": ""
+    },
+    {
+      "ip": "192.168.1.1",
+      "timestamp": "23/May/2026:09:19:22 +0600",
+      "method": "PUT",
+      "path": "/api/user/5",
+      "status": 200,
+      "bytes": 1340,
+      "user_agent": ""
+    },
+    {
+      "ip": "182.34.56.78",
+      "timestamp": "23/May/2026:09:20:10 +0600",
+      "method": "DELETE",
+      "path": "/api/order/12",
+      "status": 204,
+      "bytes": 230,
+      "user_agent": ""
+    }
+  ]
+}
